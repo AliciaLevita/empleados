@@ -35,7 +35,7 @@ function insertRecord(req, res) {
                 });
             }
             else
-                console.log('Error during record insertion : ' + err);
+                console.log('Error al grabar la insercion : ' + err);
         }
     });
 }
